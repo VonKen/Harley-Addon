@@ -1,15 +1,15 @@
 build.assets=assets
 build.assets.meta=assets.mcmeta
-build.assets.file=Harley_Resources_${version}
+build.assets.file=MobilityBikes_Resources_${version}
 
 build.data=data
 build.data.meta=data.mcmeta
-build.data.file=Harley_Data_${version}
+build.data.file=MobilityBikes_Data_${version}
 
 build.mod.resources=assets,data
 build.mod.manifest=fabric.mod.json,neoforge.mods.toml:META-INF/neoforge.mods.toml
 build.mod.meta=assets.mcmeta
-build.mod.file=harley-${version}
+build.mod.file=mobilitybikes-${version}
 
 build.icon=icon.png
 build.license=LICENSE
@@ -17,9 +17,9 @@ build.license=LICENSE
 assets_pack_format=34
 data_pack_format=48
 
-name=Harley Motorcycle
+name=MobilityBikes
 namespace=harley
 author=Spam
 version=1.0+1.21.1
-description=Harley motorcycle addon for Automobility Extras
+description=MobilityBikes addon for Automobility
 license=MIT
