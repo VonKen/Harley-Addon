@@ -1,0 +1,40 @@
+{
+  "weight": 0.45,
+  "width": 1.1,
+  "display": {
+    "driver_seat": [
+      0,
+      0.55,
+      -3.975
+    ],
+    "engine_position": [
+      0,
+      -5.15,
+      0.825
+    ],
+    "front_attachment_offset": 14.175,
+    "rear_attachment_offset": 13.325,
+    "texture": "harley:models/entity/harley/texture.png",
+    "model": "harley:frame/harley",
+    "wheels": [
+      {
+        "yaw": 0.0,
+        "end": "front",
+        "side": "center",
+        "forward": -14.175,
+        "right": 0,
+        "scale": 1.0
+      },
+      {
+        "yaw": 0.0,
+        "end": "back",
+        "side": "center",
+        "forward": 13.325,
+        "right": 0,
+        "scale": 1.0
+      }
+    ],
+    "length_pixels": 56,
+    "passenger_seats": []
+  }
+}
