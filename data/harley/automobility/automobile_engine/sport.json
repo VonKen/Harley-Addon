@@ -1,0 +1,22 @@
+{
+  "speed": 1.8,
+  "torque": 0.8,
+  "sound": {
+    "sound_id": "automobility:entity.automobile.gold_engine"
+  },
+  "display": {
+    "texture": "harley:textures/entity/automobile/engine/sport.png",
+    "model": "harley:engine/sport",
+    "exhausts": [
+      {
+        "position": [
+          0,
+          3.5,
+          -4.0
+        ],
+        "pitch": 25,
+        "yaw": 0
+      }
+    ]
+  }
+}

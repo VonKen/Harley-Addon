@@ -1,0 +1,31 @@
+{
+  "speed": 1.2,
+  "torque": 1.5,
+  "sound": {
+    "sound_id": "automobility:entity.automobile.iron_engine"
+  },
+  "display": {
+    "texture": "harley:textures/entity/automobile/engine/v_twin.png",
+    "model": "harley:engine/v_twin",
+    "exhausts": [
+      {
+        "position": [
+          2.5,
+          4.0,
+          -3.0
+        ],
+        "pitch": 30,
+        "yaw": 0
+      },
+      {
+        "position": [
+          -2.5,
+          4.0,
+          3.0
+        ],
+        "pitch": 30,
+        "yaw": 0
+      }
+    ]
+  }
+}

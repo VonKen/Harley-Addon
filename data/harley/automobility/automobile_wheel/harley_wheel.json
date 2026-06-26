@@ -1,0 +1,10 @@
+{
+  "size": 1.0,
+  "grip": 1.3,
+  "display": {
+    "texture": "harley:models/entity/wheel/texture.png",
+    "model": "harley:wheel/harley_wheel",
+    "radius": 6.5,
+    "width": 3.0
+  }
+}

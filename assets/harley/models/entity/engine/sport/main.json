@@ -1,0 +1,111 @@
+{
+  "texture": {
+    "width": 64,
+    "height": 32
+  },
+  "bones": {
+    "main": {
+      "cuboids": [
+        {
+          "offset": [
+            -4,
+            -6,
+            -3
+          ],
+          "dimensions": [
+            8,
+            6,
+            6
+          ],
+          "uv": [
+            0,
+            0
+          ]
+        },
+        {
+          "offset": [
+            -3.5,
+            0,
+            -2.5
+          ],
+          "dimensions": [
+            7,
+            3,
+            5
+          ],
+          "uv": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": [
+            -2,
+            -7,
+            3
+          ],
+          "dimensions": [
+            4,
+            1,
+            2
+          ],
+          "uv": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": [
+            -2,
+            -7,
+            -5
+          ],
+          "dimensions": [
+            4,
+            1,
+            2
+          ],
+          "uv": [
+            14,
+            20
+          ]
+        }
+      ],
+      "children": {
+        "airbox": {
+          "transform": {
+            "origin": [
+              0,
+              -3,
+              -5
+            ],
+            "rotation": [
+              20,
+              0,
+              0
+            ]
+          },
+          "cuboids": [
+            {
+              "offset": [
+                -2,
+                -2,
+                -2
+              ],
+              "dimensions": [
+                4,
+                3,
+                3
+              ],
+              "uv": [
+                22,
+                12
+              ]
+            }
+          ],
+          "children": {}
+        }
+      }
+    }
+  }
+}

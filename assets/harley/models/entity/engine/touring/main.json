@@ -1,0 +1,213 @@
+{
+  "texture": {
+    "width": 64,
+    "height": 32
+  },
+  "bones": {
+    "main": {
+      "cuboids": [
+        {
+          "offset": [
+            -5,
+            -6,
+            -4
+          ],
+          "dimensions": [
+            10,
+            5,
+            8
+          ],
+          "uv": [
+            0,
+            0
+          ]
+        },
+        {
+          "offset": [
+            -5,
+            -1,
+            -3
+          ],
+          "dimensions": [
+            10,
+            2,
+            6
+          ],
+          "uv": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": [
+            -4,
+            -7,
+            -2
+          ],
+          "dimensions": [
+            8,
+            1,
+            4
+          ],
+          "uv": [
+            0,
+            21
+          ]
+        }
+      ],
+      "children": {
+        "left_cyl": {
+          "transform": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -15
+            ]
+          },
+          "cuboids": [
+            {
+              "offset": [
+                3,
+                -4,
+                -2
+              ],
+              "dimensions": [
+                3,
+                5,
+                4
+              ],
+              "uv": [
+                20,
+                13
+              ]
+            },
+            {
+              "offset": [
+                3,
+                1,
+                -1.5
+              ],
+              "dimensions": [
+                3,
+                2,
+                3
+              ],
+              "uv": [
+                20,
+                22
+              ]
+            }
+          ],
+          "children": {}
+        },
+        "right_cyl": {
+          "transform": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              15
+            ]
+          },
+          "cuboids": [
+            {
+              "offset": [
+                -6,
+                -4,
+                -2
+              ],
+              "dimensions": [
+                3,
+                5,
+                4
+              ],
+              "uv": [
+                30,
+                13
+              ]
+            },
+            {
+              "offset": [
+                -6,
+                1,
+                -1.5
+              ],
+              "dimensions": [
+                3,
+                2,
+                3
+              ],
+              "uv": [
+                30,
+                22
+              ]
+            }
+          ],
+          "children": {}
+        },
+        "fins": {
+          "cuboids": [
+            {
+              "offset": [
+                -5.5,
+                -4,
+                -4.5
+              ],
+              "dimensions": [
+                11,
+                1,
+                1
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "offset": [
+                -5.5,
+                -3,
+                -4.5
+              ],
+              "dimensions": [
+                11,
+                1,
+                1
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "offset": [
+                -5.5,
+                -2,
+                -4.5
+              ],
+              "dimensions": [
+                11,
+                1,
+                1
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ],
+          "children": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "texture": {
+    "width": 64,
+    "height": 32
+  },
+  "bones": {
+    "main": {
+      "cuboids": [
+        {
+          "offset": [
+            -4,
+            -5,
+            -4
+          ],
+          "dimensions": [
+            8,
+            5,
+            8
+          ],
+          "uv": [
+            0,
+            0
+          ]
+        },
+        {
+          "offset": [
+            -4,
+            0,
+            -4
+          ],
+          "dimensions": [
+            6,
+            2,
+            6
+          ],
+          "uv": [
+            0,
+            13
+          ]
+        }
+      ],
+      "children": {
+        "front_cyl": {
+          "transform": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -25
+            ]
+          },
+          "cuboids": [
+            {
+              "offset": [
+                2,
+                -3,
+                -3
+              ],
+              "dimensions": [
+                3,
+                5,
+                3
+              ],
+              "uv": [
+                0,
+                21
+              ]
+            },
+            {
+              "offset": [
+                2,
+                2,
+                -2.5
+              ],
+              "dimensions": [
+                3,
+                2,
+                2
+              ],
+              "uv": [
+                19,
+                21
+              ]
+            }
+          ],
+          "children": {}
+        },
+        "rear_cyl": {
+          "transform": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              25
+            ]
+          },
+          "cuboids": [
+            {
+              "offset": [
+                -5,
+                -3,
+                0
+              ],
+              "dimensions": [
+                3,
+                5,
+                3
+              ],
+              "uv": [
+                25,
+                21
+              ]
+            },
+            {
+              "offset": [
+                -5,
+                2,
+                0.5
+              ],
+              "dimensions": [
+                3,
+                2,
+                2
+              ],
+              "uv": [
+                25,
+                0
+              ]
+            }
+          ],
+          "children": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "speed": 1.5,
+  "torque": 1.5,
+  "sound": {
+    "sound_id": "automobility:entity.automobile.creative_engine"
+  },
+  "display": {
+    "texture": "harley:textures/entity/automobile/engine/racing.png",
+    "model": "harley:engine/racing",
+    "exhausts": [
+      {
+        "position": [
+          0,
+          4.0,
+          -4.5
+        ],
+        "pitch": 35,
+        "yaw": 0
+      }
+    ]
+  }
+}
