@@ -25,3 +25,10 @@ type="required"
 versionRange="[1.21,1.21.1]"
 ordering="NONE"
 side="BOTH"
+
+[[dependencies.${namespace}]]
+modId="automobility"
+type="required"
+versionRange="*"
+ordering="NONE"
+side="BOTH"
